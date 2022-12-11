@@ -1,0 +1,48 @@
+* 2022.12.07 21:00
+
+git clone github_http
+
+python3 -m venv myproject
+
+pip3 install flask
+pip3 install flask-migrate
+pip3 install flask-wtf
+
+chapter 2
+
+* 2022.12.08 06:10
+chapter 3 start
+
+flask shell
+
+paging and filter function
+
+* 2022.12.09 13:23
+chapter 3-06 login
+
+@bp.before_app_request를 적용한 함수는 
+auth_views.py의 라우팅 함수 뿐만 아니라 모든 라우팅 함수보다 항상 먼저 실행된다.
+
+chapter 3-07 logout
+
+chapter 3-08 model 수정하기--> 추후 중요 확인 요망
+
+chapter 3-09 display writer
+
+* 2022.12.10 16:00
+chapter 3-10 db modify and delete
+chapter 3-11 suggestion function, voter
+chapter 3-12 anchor *********** error 2022.12.10 18:00
+
+chapter 3.14 search 
+
+chapter 4-08 
+
+chapter 4-10 Using Gunicorn
+make log directory 
+
+* 2022.12.11 08:30
+chapter 4-07 setup python 
+    - change hostname
+    - setup local time
+    - setup python
