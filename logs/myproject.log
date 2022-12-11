@@ -1,21 +1,13 @@
-[2022-12-11 14:08:41,475] INFO in main_views: INFO Level output
-[2022-12-11 14:15:18,620] ERROR in app: Exception on /question/list/ [GET]
-Traceback (most recent call last):
-  File "/root/uttec/linuxFlask/myproject/lib/python3.8/site-packages/flask/app.py", line 2525, in wsgi_app
-    response = self.full_dispatch_request()
-  File "/root/uttec/linuxFlask/myproject/lib/python3.8/site-packages/flask/app.py", line 1822, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "/root/uttec/linuxFlask/myproject/lib/python3.8/site-packages/flask/app.py", line 1820, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "/root/uttec/linuxFlask/myproject/lib/python3.8/site-packages/flask/app.py", line 1796, in dispatch_request
-    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
-  File "/root/uttec/linuxFlask/pybo/views/question_views.py", line 24, in _list
-    logData = '{}'.format(logCount)
-UnboundLocalError: local variable 'logCount' referenced before assignment
-[2022-12-11 14:17:44,876] INFO in question_views: 
-[2022-12-11 14:18:06,955] INFO in main_views: INFO Level output
-[2022-12-11 14:18:06,965] INFO in question_views: 
-[2022-12-11 14:20:46,034] INFO in question_views: logCount: 0
-[2022-12-11 14:20:49,370] INFO in question_views: logCount: 1
-[2022-12-11 14:21:58,285] INFO in main_views: INFO Level output
-[2022-12-11 14:21:58,301] INFO in question_views: logCount: 2
+[2022-12-11 15:05:23,789] INFO in main_views: INFO Level output
+[2022-12-11 15:05:23,798] INFO in question_views: logCount: 8
+[2022-12-11 15:06:21,008] INFO in main_views: INFO Level output
+[2022-12-11 15:06:21,016] INFO in question_views: logCount: 0
+[2022-12-11 15:06:39,086] INFO in question_views: logCount: 1
+[2022-12-11 15:07:43,615] INFO in main_views: INFO Level output
+[2022-12-11 15:07:43,634] INFO in question_views: logCount: 0
+[2022-12-11 15:07:46,423] INFO in main_views: INFO Level output
+[2022-12-11 15:07:46,432] INFO in question_views: logCount: 1
+[2022-12-11 15:08:40,733] INFO in main_views: INFO Level output
+[2022-12-11 15:08:40,754] INFO in question_views: logCount: 2
+[2022-12-11 15:08:42,781] INFO in main_views: INFO Level output
+[2022-12-11 15:08:42,790] INFO in question_views: logCount: 3
